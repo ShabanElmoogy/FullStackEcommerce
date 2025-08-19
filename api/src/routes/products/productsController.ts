@@ -5,10 +5,12 @@ export function listProducts(req: Request, res: Response) {
 }
 
 export function getProductById(req: Request, res: Response) {
+
     res.send('Hello World!!!!!');
 }
 
 export function createProduct(req: Request, res: Response) {
+      console.log("request",req.body)
     res.send('Hello World!!!!!');
 }
 
