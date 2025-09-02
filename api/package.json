@@ -8,16 +8,18 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "node --import=tsx --watch --env-file=.env src/index.ts",
     "build": "tsc",
-    "db:generate" : "drizzle-kit generate",
-    "db:migrate" : "drizzle-kit migrate",
-    "db:studio" : "drizzle-kit studio"
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:studio": "drizzle-kit studio"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "drizzle-orm": "^0.44.4",
+    "drizzle-zod": "^0.8.3",
     "express": "^5.1.0",
-    "pg": "^8.16.3"
+    "pg": "^8.16.3",
+    "zod": "^4.1.5"
   },
   "devDependencies": {
     "@types/express": "^5.0.3",
